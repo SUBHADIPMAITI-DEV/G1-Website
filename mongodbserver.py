@@ -1,5 +1,4 @@
-# MongoDB Username: CodeMaster Password: Dz7VClOKiF7Qh6Ge
-#mongodb+srv://<username>:<password>@cluster0.jqbembb.mongodb.net/test
+
    
 # from base64 import encode
 # from crypt import method
@@ -12,8 +11,8 @@ import bcrypt
    
 app = Flask(__name__)
 
-app.config['MONGO_DBNAME']= 'CodeMaster'
-app.config['MONGO_URL']= 'mongodb+srv://CodeMaster:codemaster@cluster0.jqbembb.mongodb.net/test'
+app.config['MONGO_DBNAME']= 'username'
+app.config['MONGO_URL']= 'mongodb+srv://username:password@cluster0.jqbembb.mongodb.net/test'
 
 mongo = PyMongo(app)
 
